@@ -11,8 +11,8 @@
                 "schlagzeug": "vorhanden",
                 "anmerkung": "blabla"
             },
-            "mitglieder": {
-                "mitglied": [
+            "personen": {
+                "person": [
                     {
                         "p_id": "0",
                         "vorname": "Bärbel",

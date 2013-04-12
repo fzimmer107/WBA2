@@ -63,7 +63,7 @@ Ich übrigends auch, super Rezept.</nachricht>
             <zutat einheit="Prise" menge="1" Name="Pfeffer"/>
             <zutat einheit="kl. Dose" menge="1" Name="Bohnen(Baked Beans), oder Mais"/>
             <zutat einheit="Prise" menge="1" Name="Knoblauchpulver"/>
-            <zutat einheit="TL" menge="-4" Name="Butter/Magerine"/>
+            <zutat einheit="TL" menge="4" Name="Butter/Magerine"/>
         </zutaten>
         <portionen>1</portionen>
         <arbeitszeit> ca 1. Min</arbeitszeit>

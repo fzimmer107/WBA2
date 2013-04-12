@@ -28,6 +28,26 @@ public class Rezepte {
 			}
 		
 	}
+	public static void zutatenhinzufuegen(ArrayList<RType> rList){
+		in = new Scanner(System.in);
+		System.out.println("Titel yo?!");
+		String titel = in.nextLine();
+		System.out.println("Zutaten NAU! Zum verlassen ->exit<- schreiben yo!");
+		do{
+			
+			ZType Zutat = new ZType();
+			System.out.println("art?");
+			Zutat.setArt(in.next());
+			System.out.println("How much is ze fish?");
+			Zutat.setMenge(in.nextBigDecimal());
+			System.out.println("Last but nawt least, die Einheit");
+			Zutat.setEinheit(in.next());
+		}
+		
+		while(in.next() == "exit");
+		System.out.println("portionen bitch?!");
+		
+	}
 	
 	public static void rezeptZeigen(RType rezept){
 		
@@ -42,7 +62,7 @@ public class Rezepte {
 		System.out.println("Zutaten:");
 		List<ZType> zutaten =rezept.getZutaten().getZutat();
 		for (ZType zutat: zutaten){
-			System.out.print(zutat.getName()+": "+zutat.getMenge()+" ");
+			System.out.print(zutat.getArt()+": " + zutat.getMenge());
 			if (zutat.getEinheit()!=null)System.out.println(zutat.getEinheit());
 		}
 		

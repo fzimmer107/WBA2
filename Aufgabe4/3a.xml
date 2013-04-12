@@ -9,18 +9,46 @@
             </foto>
         </fotos>
         <zutaten>
-            <zutat einheit="g" menge="200" Name="Butter"/>
-            <zutat einheit="g" menge="200" Name="Zucker"/>
-            <zutat einheit="g" menge="200" Name="Schokolade"/>
-            <zutat einheit="g" menge="120" Name="Mehl"/>
-            <zutat einheit="TL" menge="0.5" Name="Backpulver"/>
-            <zutat einheit="Pkt" menge="1" Name="Vanillezucker"/>
-            <zutat menge="4" Name="Eier"/>
+            <zutat>
+                <einheit>g</einheit>
+                <menge>200</menge>
+                <art>Butter</art>
+            </zutat>
+            <zutat>
+                <einheit>g</einheit>
+                <menge>200</menge>
+                <art>Zucker</art>
+            </zutat>
+            <zutat>
+                <einheit>g</einheit>
+                <menge>200</menge>
+                <art>Schokolade</art>
+            </zutat>
+            <zutat>
+                <einheit>g</einheit>
+                <menge>100</menge>
+                <art>Mehl</art>
+            </zutat>
+            <zutat>
+                <einheit>Tl</einheit>
+                <menge>0.5</menge>
+                <art>Backpulver</art>
+            </zutat>
+            <zutat>
+                <einheit>Pkt</einheit>
+                <menge>4</menge>
+                <art>Vanillezucker</art>
+            </zutat>
+            <zutat>
+                <einheit></einheit>
+                <menge>4</menge>
+                <art>Eier</art>
+            </zutat>
         </zutaten>
         <portionen>16</portionen>
         <arbeitszeit> ca 1. Std</arbeitszeit>
         <schwierigkeit>normal</schwierigkeit>
-        <brennwert einheit="kcal" wert="295"/>
+        <brennwert wert="295" einheit="kcal"/>
         <zubereitung>
 Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. 
 Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. 
@@ -48,7 +76,6 @@ Ich übrigends auch, super Rezept.</nachricht>
             </kommentar>
         </kommentare>
     </rezept>
-    
     <rezept>
         <titel>Amerikanische Rühreier</titel>
         <fotos>
@@ -58,24 +85,42 @@ Ich übrigends auch, super Rezept.</nachricht>
             </foto>
         </fotos>
         <zutaten>
-            <zutat einheit="" menge="3" Name="Eier"/>
-            <zutat einheit="Prise" menge="1" Name="Salz"/>
-            <zutat einheit="Prise" menge="1" Name="Pfeffer"/>
-            <zutat einheit="kl. Dose" menge="1" Name="Bohnen(Baked Beans), oder Mais"/>
-            <zutat einheit="Prise" menge="1" Name="Knoblauchpulver"/>
-            <zutat einheit="TL" menge="4" Name="Butter/Magerine"/>
+            <zutat>
+                <einheit></einheit>
+                <menge>3</menge>
+                <art>Eier</art>
+            </zutat>
+            <zutat>
+                <einheit>Prise</einheit>
+                <menge>1</menge>
+                <art>Salz</art>
+            </zutat>
+            <zutat>
+                <einheit>Prise</einheit>
+                <menge>1</menge>
+                <art>Pfeffer</art>
+            </zutat>
+            <zutat>
+                <einheit>kl. Dose</einheit>
+                <menge>1</menge>
+                <art>Backed Beans, oder Mais</art>
+            </zutat>
+            <zutat>
+                <einheit>Tl</einheit>
+                <menge>1</menge>
+                <art>Butter oder Magerine</art>
+            </zutat>
         </zutaten>
         <portionen>1</portionen>
         <arbeitszeit> ca 1. Min</arbeitszeit>
-        <schwierigkeit>leicht</schwierigkeit>
-        <brennwert einheit="kcal" wert="295"/>
+        <brennwert wert="295" einheit="kcal"/>
         <zubereitung>
 Butter oder Margarine in einer kleinen Pfanne erhitzen. 
 Die Eier aufschlagen, und in die Pfanne geben. 
 Sofort anfangen zu rühren, da es sonst Spiegeleier werden. 
 Wenn die Eier nicht mehr flüssig sind und anfangen zu klumpen, Pfanne vom Herd nehmen. 
 Baked Beans oder Mais dazugeben, und kurz verrühren.
- Mit Salz, Pfeffer und Knoblauchpulver abschmecken. Wer will, kann noch etwas Ketchup dazugeben. 
+ Mit Salz, Pfeffer und Knoblauchpulver abschmecken. Wer will, kann noch etwas Ketchup dazugeben.
 		</zubereitung>
         <kommentare>
             <kommentar>
@@ -87,7 +132,11 @@ Baked Beans oder Mais dazugeben, und kurz verrühren.
                 <datum>2008-07-10T19:35:00+01:00</datum>
                 <nachricht>Hallo UmitA....</nachricht>
             </kommentar>
-   
+            <kommentar>
+                <user>dieter</user>
+                <datum>2013-04-12T19:09:07.601+02:00</datum>
+                <nachricht>ja war aeußerst nice</nachricht>
+            </kommentar>
         </kommentare>
     </rezept>
 </rezepte>

@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2013.04.11 um 05:24:53 PM CEST 
+// Generiert: 2013.04.12 um 04:24:21 PM CEST 
 //
 
 
@@ -11,7 +11,7 @@ package generated;
 import java.math.BigDecimal;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -24,15 +24,11 @@ import javax.xml.bind.annotation.XmlType;
  * &lt;complexType name="zType">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;attribute name="Name" type="{http://www.w3.org/2001/XMLSchema}string" />
- *       &lt;attribute name="menge">
- *         &lt;simpleType>
- *           &lt;restriction base="{http://www.w3.org/2001/XMLSchema}decimal">
- *             &lt;minInclusive value="0"/>
- *           &lt;/restriction>
- *         &lt;/simpleType>
- *       &lt;/attribute>
- *       &lt;attribute name="einheit" type="{http://www.w3.org/2001/XMLSchema}string" />
+ *       &lt;sequence>
+ *         &lt;element name="einheit" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="menge" type="{}menge_type"/>
+ *         &lt;element name="art" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
  * &lt;/complexType>
@@ -41,38 +37,42 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "zType")
+@XmlType(name = "zType", propOrder = {
+    "einheit",
+    "menge",
+    "art"
+})
 public class ZType {
 
-    @XmlAttribute(name = "Name")
-    protected String name;
-    @XmlAttribute(name = "menge")
-    protected BigDecimal menge;
-    @XmlAttribute(name = "einheit")
+    @XmlElement(required = true)
     protected String einheit;
+    @XmlElement(required = true)
+    protected BigDecimal menge;
+    @XmlElement(required = true)
+    protected String art;
 
     /**
-     * Ruft den Wert der name-Eigenschaft ab.
+     * Ruft den Wert der einheit-Eigenschaft ab.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getName() {
-        return name;
+    public String getEinheit() {
+        return einheit;
     }
 
     /**
-     * Legt den Wert der name-Eigenschaft fest.
+     * Legt den Wert der einheit-Eigenschaft fest.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setName(String value) {
-        this.name = value;
+    public void setEinheit(String value) {
+        this.einheit = value;
     }
 
     /**
@@ -100,27 +100,27 @@ public class ZType {
     }
 
     /**
-     * Ruft den Wert der einheit-Eigenschaft ab.
+     * Ruft den Wert der art-Eigenschaft ab.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getEinheit() {
-        return einheit;
+    public String getArt() {
+        return art;
     }
 
     /**
-     * Legt den Wert der einheit-Eigenschaft fest.
+     * Legt den Wert der art-Eigenschaft fest.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setEinheit(String value) {
-        this.einheit = value;
+    public void setArt(String value) {
+        this.art = value;
     }
 
 }

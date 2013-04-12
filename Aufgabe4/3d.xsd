@@ -47,17 +47,22 @@
 </xs:complexType>
 
 <xs:complexType name="zType">
-		<xs:attribute name="Name" type="xs:string"/>
-		<xs:attribute name="menge">
-			<xs:simpleType>
-			<xs:restriction base="xs:decimal">
+		<xs:sequence>
+			<xs:element name="einheit" type="xs:string"/>
+			<xs:element name="menge" type="menge_type"/>
+			<xs:element name="art" type="xs:string"/>
+		</xs:sequence>
+</xs:complexType>
+	
+		
+		<xs:simpleType name="menge_type">
+			<xs:restriction base="xs:decimal">		
 				<xs:minInclusive value="0"/>
 			</xs:restriction>
+		
+			
 			</xs:simpleType>
-		</xs:attribute>                  
-		<xs:attribute name="einheit" type="xs:string"/>
-</xs:complexType>
-
+			
 <xs:simpleType name="schwType">
 	<xs:restriction base="xs:string">
 		<xs:enumeration value="leicht"/>

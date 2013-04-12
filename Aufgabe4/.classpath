@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="C:/Users/fabian/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-impl-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fabian/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-xjc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/fabian/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-xjc-javadoc.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

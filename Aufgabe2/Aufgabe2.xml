@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gruppe>
+	<gruppen_id>0</gruppen_id>
+	<gruppenleiter>
+		<vorname>Dieter</vorname>
+		<nachname>Mosel</nachname>
+		<email>dieter@gmx.de</email>
+		<geburtsdatum>20.12.1967</geburtsdatum>
+		<erfahrung>Profi</erfahrung>(wie darstellen in XML?)
+		<schlagzeug>vorhanden</schlagzeug>
+		<anmerkung>blabla</anmerkung>
+	</gruppenleiter>
+	<personen>
+	<person>
+		<p_id>0</p_id>
+		<vorname>Bärbel</vorname>
+		<nachname>Schäfer</nachname>
+		<email>b.schaefer@gmx.de</email>
+		<geburtsdatum>11.11.1967</geburtsdatum>
+		<erfahrung>Erfahren</erfahrung>
+		<schlagzeug>vorhanden</schlagzeug>
+		<anmerkung>blablabli</anmerkung>
+	</person>
+
+	<person>
+		<p_id>1</p_id>
+		<vorname>Hans Peter</vorname>
+		<nachname>Dick</nachname>
+		<email>dick@gmx.net</email>
+		<geburtsdatum>15.03.1970</geburtsdatum>
+		<erfahrung>Erfahren</erfahrung>
+		<schlagzeug>nicht vorhanden</schlagzeug>
+		<anmerkung>blablabliblah</anmerkung>
+	</person>
+</personen>
+	<AGBcheck>true</AGBcheck>
+</gruppe>

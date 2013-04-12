@@ -2,7 +2,7 @@
     "gruppe": [
         {
             "gruppen_id": "0",
-            "Gruppenleiter": {
+            "gruppenleiter": {
                 "vorname": "Dieter",
                 "nachname": "Mosel",
                 "email": "dieter@gmx.de",
@@ -11,8 +11,8 @@
                 "schlagzeug": "vorhanden",
                 "anmerkung": "blabla"
             },
-            "Mitglieder": {
-                "Mitglied": [
+            "mitglieder": {
+                "mitglied": [
                     {
                         "p_id": "0",
                         "vorname": "Bärbel",
@@ -24,7 +24,7 @@
                         "anmerkung": "blablabli"
                     },
                     {
-                        "mit_id": "1",
+                        "p_id": "1",
                         "vorname": "Hans Peter",
                         "nachname": "Dick",
                         "email": "dick@gmx.net",
